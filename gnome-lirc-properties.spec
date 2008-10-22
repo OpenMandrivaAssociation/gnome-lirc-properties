@@ -9,7 +9,7 @@ Summary:	Infrared Remote Controls setup tool
 Group:		System/Configuration/Hardware
 License:	GPLv2+
 URL:		http://svn.gnome.org/svn/gnome-lirc-properties/trunk
-Source:		http://ftp.gnome.org/pub/GNOME/sources/gnome-lirc-properties/0.2/%{name}-%{version}.tar.gz
+Source:		http://ftp.gnome.org/pub/GNOME/sources/gnome-lirc-properties/%{name}-%{version}.tar.gz
 # http://bugzilla.gnome.org/show_bug.cgi?id=530359
 # http://bugzilla.gnome.org/show_bug.cgi?id=540897
 # based on fedora support patch
