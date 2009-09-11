@@ -3,7 +3,7 @@
 
 Name:		gnome-lirc-properties
 Version:	0.3.1
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	Infrared Remote Controls setup tool
 
 Group:		System/Configuration/Hardware
