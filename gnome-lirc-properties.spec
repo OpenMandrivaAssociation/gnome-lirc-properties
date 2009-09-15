@@ -2,8 +2,8 @@
 %define		lirc_version 0.8.3
 
 Name:		gnome-lirc-properties
-Version:	0.3.1
-Release:	%mkrel 3
+Version:	0.4.0
+Release:	%mkrel 1
 Summary:	Infrared Remote Controls setup tool
 
 Group:		System/Configuration/Hardware
