@@ -17,7 +17,7 @@ Requires:	pygtk2.0
 Requires:	lirc >= %{lirc_version} lirc-remotes >= %{lirc_version}
 
 BuildRequires:	python-devel
-BuildRequires:	polkit-1-devel >= %{polkit_version} gtk2-devel
+BuildRequires:	polkit-1-devel gtk2-devel
 BuildRequires:	gnome-doc-utils
 BuildRequires:	lirc >= %{lirc_version} lirc-remotes >= %{lirc_version}
 BuildRequires:	desktop-file-utils
