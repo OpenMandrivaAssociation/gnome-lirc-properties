@@ -1,8 +1,7 @@
-%define		polkit_version 0.8
 %define		lirc_version 0.8.3
 
 Name:		gnome-lirc-properties
-Version:	0.4.0
+Version:	0.5.1
 Release:	%mkrel 1
 Summary:	Infrared Remote Controls setup tool
 
@@ -13,12 +12,12 @@ Source:		http://ftp.gnome.org/pub/GNOME/sources/gnome-lirc-properties/%{name}-%{
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 Requires:	python 
-Requires:	policykit >= %{polkit_version}
+Requires:	polkit
 Requires:	pygtk2.0
 Requires:	lirc >= %{lirc_version} lirc-remotes >= %{lirc_version}
 
 BuildRequires:	python-devel
-BuildRequires:	policykit-gnome-devel >= %{polkit_version} gtk2-devel
+BuildRequires:	polkit-1-devel >= %{polkit_version} gtk2-devel
 BuildRequires:	gnome-doc-utils
 BuildRequires:	lirc >= %{lirc_version} lirc-remotes >= %{lirc_version}
 BuildRequires:	desktop-file-utils
@@ -56,7 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root,-)
 %doc ChangeLog COPYING README AUTHORS
 %{_sysconfdir}/dbus-1/system.d/org.gnome.LircProperties.Mechanism.conf
-%{_datadir}/PolicyKit/policy/gnome-lirc-properties-mechanism.policy
+%{_datadir}/polkit-1/actions/org.gnome.lirc-properties.mechanism.policy
 %{_datadir}/dbus-1/system-services/org.gnome.LircProperties.Mechanism.service
 %{_datadir}/hal/fdi/policy/10osvendor/20-x11-remotes.fdi
 %{_datadir}/applications/gnome-lirc-properties.desktop
