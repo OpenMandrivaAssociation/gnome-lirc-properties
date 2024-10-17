@@ -7,7 +7,7 @@ Summary:	Infrared Remote Controls setup tool
 
 Group:		System/Configuration/Hardware
 License:	GPLv2+
-URL:		http://svn.gnome.org/svn/gnome-lirc-properties/trunk
+URL:		https://svn.gnome.org/svn/gnome-lirc-properties/trunk
 Source:		http://ftp.gnome.org/pub/GNOME/sources/gnome-lirc-properties/%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
